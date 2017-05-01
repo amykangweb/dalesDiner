@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7F5E07D81EB722EB00E238B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5E07D71EB722EB00E238B5 /* main.m */; };
+		7F5E07E31EB7238900E238B5 /* TableCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5E07E21EB7238900E238B5 /* TableCheck.m */; };
+		7F5E07E51EB726EA00E238B5 /* TableCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F5E07E11EB7238900E238B5 /* TableCheck.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		7F5E07D41EB722EB00E238B5 /* dalesDiner */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dalesDiner; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F5E07D71EB722EB00E238B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F5E07E11EB7238900E238B5 /* TableCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableCheck.h; sourceTree = "<group>"; };
+		7F5E07E21EB7238900E238B5 /* TableCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableCheck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +45,8 @@
 		7F5E07CB1EB722EB00E238B5 = {
 			isa = PBXGroup;
 			children = (
+				7F5E07E11EB7238900E238B5 /* TableCheck.h */,
+				7F5E07E21EB7238900E238B5 /* TableCheck.m */,
 				7F5E07D61EB722EB00E238B5 /* dalesDiner */,
 				7F5E07D51EB722EB00E238B5 /* Products */,
 			);
@@ -64,6 +70,17 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		7F5E07E41EB726DA00E238B5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F5E07E51EB726EA00E238B5 /* TableCheck.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		7F5E07D31EB722EB00E238B5 /* dalesDiner */ = {
 			isa = PBXNativeTarget;
@@ -72,6 +89,7 @@
 				7F5E07D01EB722EB00E238B5 /* Sources */,
 				7F5E07D11EB722EB00E238B5 /* Frameworks */,
 				7F5E07D21EB722EB00E238B5 /* CopyFiles */,
+				7F5E07E41EB726DA00E238B5 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -120,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F5E07D81EB722EB00E238B5 /* main.m in Sources */,
+				7F5E07E31EB7238900E238B5 /* TableCheck.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
