@@ -9,7 +9,9 @@
 /* Begin PBXBuildFile section */
 		7F5E07D81EB722EB00E238B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5E07D71EB722EB00E238B5 /* main.m */; };
 		7F5E07E31EB7238900E238B5 /* TableCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5E07E21EB7238900E238B5 /* TableCheck.m */; };
-		7F5E07E51EB726EA00E238B5 /* TableCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F5E07E11EB7238900E238B5 /* TableCheck.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F5E07E51EB726EA00E238B5 /* TableCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F5E07E11EB7238900E238B5 /* TableCheck.h */; };
+		7F72A4BE1EB875F200538774 /* MenuItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F72A4BC1EB875F200538774 /* MenuItem.h */; };
+		7F72A4BF1EB875F200538774 /* MenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F72A4BD1EB875F200538774 /* MenuItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +31,8 @@
 		7F5E07D71EB722EB00E238B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7F5E07E11EB7238900E238B5 /* TableCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableCheck.h; sourceTree = "<group>"; };
 		7F5E07E21EB7238900E238B5 /* TableCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableCheck.m; sourceTree = "<group>"; };
+		7F72A4BC1EB875F200538774 /* MenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuItem.h; path = dalesDiner/MenuItem.h; sourceTree = "<group>"; };
+		7F72A4BD1EB875F200538774 /* MenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuItem.m; path = dalesDiner/MenuItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +50,8 @@
 			isa = PBXGroup;
 			children = (
 				7F5E07E11EB7238900E238B5 /* TableCheck.h */,
+				7F72A4BC1EB875F200538774 /* MenuItem.h */,
+				7F72A4BD1EB875F200538774 /* MenuItem.m */,
 				7F5E07E21EB7238900E238B5 /* TableCheck.m */,
 				7F5E07D61EB722EB00E238B5 /* dalesDiner */,
 				7F5E07D51EB722EB00E238B5 /* Products */,
@@ -75,6 +81,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F72A4BE1EB875F200538774 /* MenuItem.h in Headers */,
 				7F5E07E51EB726EA00E238B5 /* TableCheck.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F72A4BF1EB875F200538774 /* MenuItem.m in Sources */,
 				7F5E07D81EB722EB00E238B5 /* main.m in Sources */,
 				7F5E07E31EB7238900E238B5 /* TableCheck.m in Sources */,
 			);
@@ -267,6 +275,7 @@
 				7F5E07DD1EB722EB00E238B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

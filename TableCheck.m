@@ -10,4 +10,16 @@
 
 @implementation TableCheck
 
+-(id) init {
+    
+    self = [super init];
+    
+    if (self) {
+        self.itemsOrdered = [[NSMutableArray alloc]init];
+        // self.comesWithFries = YES;
+    }
+    
+    return self;
+}
+
 @end

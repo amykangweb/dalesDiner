@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "TableCheck.h"
+#import "MenuItem.h"
 
 int main(int argc, const char * argv[]) {
     
@@ -15,7 +16,23 @@ int main(int argc, const char * argv[]) {
     table1.subtotal = 15.00;
     table1.tip = 5.00;
     table1.isTakeOut = YES;
-    float savedTip = table1.tip;
+    // float savedTip = table1.tip;
+    
+    MenuItem *grilledCheese = [[MenuItem alloc]init];
+    grilledCheese.itemName = @"Grilled Cheese";
+    grilledCheese.itemPrice = 4.50;
+    
+    MenuItem *soupDuJour = [[MenuItem alloc]init];
+    soupDuJour.itemName = @"Soup du Jour";
+    soupDuJour.itemPrice = 3.25;
+    
+    // table1.itemsOrdered = [[NSMutableArray alloc]init];
+    
+    [table1.itemsOrdered addObject:grilledCheese];
+    table1.subtotal += grilledCheese.itemPrice;
+    
+    [table1.itemsOrdered addObject:soupDuJour];
+    table1.subtotal += soupDuJour.itemPrice;
     
     return 0;
 }
