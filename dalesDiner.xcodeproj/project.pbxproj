@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7FD1A44C1EBAF913005E2E9E /* GroupTableCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FD1A44A1EBAF913005E2E9E /* GroupTableCheck.h */; };
+		7FD1A44D1EBAF913005E2E9E /* GroupTableCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD1A44B1EBAF913005E2E9E /* GroupTableCheck.m */; };
 		7FE4FC231EB9B06E005BE9D2 /* MenuItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FE4FC1F1EB9B06E005BE9D2 /* MenuItem.h */; };
 		7FE4FC241EB9B06E005BE9D2 /* MenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE4FC201EB9B06E005BE9D2 /* MenuItem.m */; };
 		7FE4FC251EB9B06E005BE9D2 /* TableCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FE4FC211EB9B06E005BE9D2 /* TableCheck.h */; };
@@ -28,6 +30,8 @@
 
 /* Begin PBXFileReference section */
 		7F5E07D41EB722EB00E238B5 /* dalesDiner */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dalesDiner; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FD1A44A1EBAF913005E2E9E /* GroupTableCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupTableCheck.h; sourceTree = "<group>"; };
+		7FD1A44B1EBAF913005E2E9E /* GroupTableCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupTableCheck.m; sourceTree = "<group>"; };
 		7FE4FC1E1EB9B057005BE9D2 /* dalesDiner */ = {isa = PBXFileReference; lastKnownFileType = folder; path = dalesDiner; sourceTree = "<group>"; };
 		7FE4FC1F1EB9B06E005BE9D2 /* MenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuItem.h; path = dalesDiner/MenuItem.h; sourceTree = "<group>"; };
 		7FE4FC201EB9B06E005BE9D2 /* MenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuItem.m; path = dalesDiner/MenuItem.m; sourceTree = "<group>"; };
@@ -53,6 +57,8 @@
 				7FE4FC1F1EB9B06E005BE9D2 /* MenuItem.h */,
 				7FE4FC201EB9B06E005BE9D2 /* MenuItem.m */,
 				7FE4FC211EB9B06E005BE9D2 /* TableCheck.h */,
+				7FD1A44A1EBAF913005E2E9E /* GroupTableCheck.h */,
+				7FD1A44B1EBAF913005E2E9E /* GroupTableCheck.m */,
 				7FE4FC221EB9B06E005BE9D2 /* TableCheck.m */,
 				7FE4FC1E1EB9B057005BE9D2 /* dalesDiner */,
 				7F5E07D61EB722EB00E238B5 /* dalesDiner */,
@@ -83,6 +89,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FD1A44C1EBAF913005E2E9E /* GroupTableCheck.h in Headers */,
 				7FE4FC251EB9B06E005BE9D2 /* TableCheck.h in Headers */,
 				7FE4FC231EB9B06E005BE9D2 /* MenuItem.h in Headers */,
 			);
@@ -149,6 +156,7 @@
 				7FE4FC241EB9B06E005BE9D2 /* MenuItem.m in Sources */,
 				7FE4FC281EB9B084005BE9D2 /* main.m in Sources */,
 				7FE4FC261EB9B06E005BE9D2 /* TableCheck.m in Sources */,
+				7FD1A44D1EBAF913005E2E9E /* GroupTableCheck.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

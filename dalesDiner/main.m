@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "TableCheck.h"
 #import "MenuItem.h"
+#import "GroupTableCheck.h"
 
 int main(int argc, const char * argv[]) {
     
@@ -40,6 +41,11 @@ int main(int argc, const char * argv[]) {
     [table1 addMenuItem:soupDuJour];
     
     [table1 addTax];
+    
+    GroupTableCheck *group1 = [[GroupTableCheck alloc]init];
+    
+    [group1 addMenuItem:grilledCheese];
+    [group1 addTip];
     
     return 0;
 }

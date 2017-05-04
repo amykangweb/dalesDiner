@@ -18,6 +18,7 @@
 @property (nonatomic) bool isTakeOut;
 @property (nonatomic, strong) NSMutableArray *itemsOrdered;
 @property (nonatomic, readonly) NSString *checkID;
+@property (nonatomic) int numberOfCustomers;
 
 - (void) addTax ;
 
