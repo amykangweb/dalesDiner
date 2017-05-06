@@ -10,6 +10,7 @@
 #import "TableCheck.h"
 #import "MenuItem.h"
 #import "GroupTableCheck.h"
+#import "CateringOrder.h"
 
 int main(int argc, const char * argv[]) {
     
@@ -46,6 +47,13 @@ int main(int argc, const char * argv[]) {
     
     [group1 addMenuItem:grilledCheese];
     [group1 addTip];
+    
+    CateringOrder *catering1 = [[CateringOrder alloc]init];
+    
+    [catering1 addMenuChoice:grilledCheese];
+    [catering1 addMenuChoice:soupDuJour];
+    
+    [catering1 setItemQty:grilledCheese withQty:4];
     
     return 0;
 }
